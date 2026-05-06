@@ -1,3 +1,3 @@
 ## Система апдейтов операционной системы мобильного устройства
 
-<img src="./_src/update_system.png">
+<img src="_src/update_system.png">

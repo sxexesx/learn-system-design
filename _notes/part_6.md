@@ -55,7 +55,7 @@ span - операция
 
 Системы: Parco, Pyroscope или ... Sentry. 
 
-<img src="./_src/img_23.png">
+<img src="/_src/img_23.png">
 
 <br>
 <br>

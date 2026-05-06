@@ -12,8 +12,8 @@ Near реалтайм система, показывающая текущий с
 - доступность важнее, чем всё остальное (по CAP теореме)
 
 ## MVP 
-<img src="./_src/presence_system_mvp.png">
+<img src="_src/presence_system_mvp.png">
 
 
 ## Design
-<img src="./_src/presence_system.png">
+<img src="_src/presence_system.png">

@@ -11,8 +11,8 @@
 - availability vs consistency: система должна быть отказоустойчивой.
 
 ## MVP 
-<img src="_src/email-notifications-mvp.png">
+<img src="/_src/email-notifications-mvp.png">
 
 ## Design
-<img src="_src/email-notifications.png">
+<img src="/_src/email-notifications.png">
 

@@ -197,7 +197,7 @@ INSERT INTO accounts VALUES
 
 Чтение во время до коммита другой транзакции. В PostgreSQL не допускает даже в Read Uncommited.
 
-<img src="./_src/img_25.png">
+<img src="/_src/img_25.png">
 
 ```sql
 -- session #1
@@ -223,7 +223,7 @@ COMMIT;
 
 Во время выполнения транзакции другая транзакция изменяет данные. В данном примере во время выполнения транзакции 1 транзакция 2 изменяется значение.
 
-<img src="./_src/img_26.png">
+<img src="/_src/img_26.png">
 
 ```sql
 -- session #1
@@ -251,7 +251,7 @@ COMMIT;
 
 Два обновления одной и той же сущности. Решается либо через поднятие уровня до Repeatable Read, либо через select ... for update
 
-<img src="./_src/img_24.png">
+<img src="/_src/img_24.png">
 
 ```sql
 -- session #1
@@ -311,7 +311,7 @@ SELECT * FROM accounts WHERE balance >= 150;
 
 ```
 
-<img src="./_src/img_27.png">
+<img src="/_src/img_27.png">
 
 <br>  
 
@@ -320,12 +320,12 @@ SELECT * FROM accounts WHERE balance >= 150;
 
 Чем выше уровень изоляции транзакций, тем ниже пропускная способность базы данных.  
 
-<img src="./_src/img_28.png">
+<img src="/_src/img_28.png">
 
 
 #### 2PL
 
-<img src="./_src/img_29.png">
+<img src="/_src/img_29.png">
 
 Фаза расширения - запрашиваются все необходимые для определенной транзакции блокировки и никакие блокировки не высвобождаются
 

@@ -1,7 +1,5 @@
 # Мэссенджер
 
-
-
 Функциональные требования:
 - создание чата
 - отправка сообщения
@@ -19,7 +17,7 @@
 - spikes per chat
 
 ## MVP
-<img src="_src/messenger_mvp.png">
+<img src="/_src/messenger_mvp.png">
 
 ## Design
-<img src="_src/messenger.png">
+<img src="/_src/messenger.png">
