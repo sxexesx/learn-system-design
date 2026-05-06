@@ -1,5 +1,3 @@
-# learn-system-design
-
 <div align="center">
   <img width="375" height="281" src="_src/sys-design.gif">
   <h3>Конспект по систем дизайну</h3>
