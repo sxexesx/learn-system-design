@@ -17,7 +17,7 @@
 - spikes per chat
 
 ## MVP
-<img src="/_src/messenger_mvp.png">
+<img src="../_schemas/messenger_mvp.png">
 
 ## Design
-<img src="/_src/messenger.png">
+<img src="../_schemas/messenger.png">
