@@ -80,6 +80,49 @@
     - [Роутинг данных](_notes/part_10.md#routing-данных)
     - [Альтернативный способ хранения данных](_notes/part_10.md#альтернативные-способы-хранения-данных)
 
+- [Ограничитель трафика](_notes/part_11.md)
+    - [Алгоритм маркерной корзины](_notes/part_11.md#алгоритм-маркерной-корзины-token-bucket)
+    - [Алгоритм дырявого дерева](_notes/part_11.md#алгоритм-дырявого-ведра-leaking-bucket)
+    - [Счетчик фиксированных интервалов](_notes/part_11.md#счетчик-фиксированных-интервалов-fixed-window-counter)
+    - [Журнал скользищих интервалов](_notes/part_11.md#журнал-скользящих-интервалов-sliding-window-log)
+    - [Счетчик скользящих интервалов](_notes/part_11.md#счетчик-скользящих-интервалов-sliding-window-counter)
+
+- [Архитектура ИС](_notes/part_12.md#архитектуры-ис)
+- [Синхронная и асинхронные коммуникации](_notes/part_12.md#коммуникации)
+    - [Цепочка](_notes/part_12.md#синхронные-цепочка)
+    - [Агрегатор](_notes/part_12.md#синхронные-агрегатор-api-composition)
+    - [Put/take](_notes/part_12.md#асинхронные-точка-точка-puttake)
+    - [Pub/sub](_notes/part_12.md#асинхронные-издатель-подписчик-pubsub)
+    - [Две очереди ](_notes/part_12.md#асинхронные-две-очереди-requestresponse)
+- [Event sourcing](_notes/part_12.md#event-sourcing)
+
+- [Виды релизов](_notes/part_13.md#виды-релизов)
+
+- [Подходы в проектировании](_notes/part_13.md)
+    - [Ретраи](_notes/part_13.md#ретраи)
+    - [Идемпотентность](_notes/part_13.md#идемпотентность)
+    - [Backoff](_notes/part_13.md#backoff)
+    - [Rate limiting](_notes/part_13.md#rate-limiting)
+    - [Load shedding](_notes/part_13.md#load-shedding)
+    - [Backpressure](_notes/part_13.md#backpressure)
+    - [Circuit Breaker](_notes/part_13.md#circuit-breaker)
+    - [Self-healing](_notes/part_13.md#self-healing)
+    - [Graceful degradation](_notes/part_13.md#graceful-degradation)
+    - [Fallback](_notes/part_13.md#fallback)
+    - [Failover caching](_notes/part_13.md#failover-caching)
+    - [Dead letter queue](_notes/part_13.md#dead-letter-queue)
+    - [API Gateway](_notes/part_13.md#api-gateway)
+    - [Throttling/Debouncing](_notes/part_13.md#throttling--debouncing)
+
+- [Консенсус](_notes/part_14.md)
+    - [Распределенные транзакции. 2PC](_notes/part_14.md#two-phase-comnit-2pc)
+    - [Распределенные транзакции. SAGA](_notes/part_14.md#saga)
+    - [Transactional Outbox](_notes/part_14.md#transactional-outbox)
+    - [Transactional Inbox](_notes/part_14.md#transactional-inbox)
+    - [Как распространять изменения между узлами?](_notes/part_14.md#как-распространять-изменения-между-узлами)
+    - [Модели согласованности](_notes/part_14.md#модели-согласованности)
+
+
 ---
 
 - Практика
@@ -89,6 +132,3 @@
     - [Система нотификаций](_notes/practice_5.md)
     - [Мэссенджер](_notes/practice_6.md)
 
----
-
-- [Основные паттерны](_notes/most_known.md)
