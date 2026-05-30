@@ -113,6 +113,7 @@
     - [Dead letter queue](_notes/part_13.md#dead-letter-queue)
     - [API Gateway](_notes/part_13.md#api-gateway)
     - [Throttling/Debouncing](_notes/part_13.md#throttling--debouncing)
+    - [CQRS (Command and Query Responsibility Segregation)](_notes/part_13.md#cqrs-command-and-query-responsibility-segregation)
 
 - [Консенсус](_notes/part_14.md)
     - [Распределенные транзакции. 2PC](_notes/part_14.md#two-phase-comnit-2pc)
